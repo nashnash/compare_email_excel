@@ -1,0 +1,58 @@
+```markdown
+# Comparaison d'emails depuis des fichiers Excel
+
+Ce projet permet de comparer deux fichiers Excel pour s'assurer que toutes les adresses email du second fichier se trouvent bien dans le premier fichier. Si ce n'est pas le cas, le projet renvoie les emails manquants.
+
+## Pré-requis
+
+- Node.js
+- npm ou yarn
+
+## Installation
+
+1. Clonez ce dépôt:
+   ```bash
+   git clone https://github.com/nashnash/compare_email_excel.git
+   ```
+
+2. Accédez au dossier du projet:
+   ```bash
+   cd compare_email_excel
+   ```
+
+3. Installez les dépendances:
+   ```bash
+   npm install
+   ```
+
+## Utilisation
+
+1. Démarrez le serveur:
+   ```bash
+   node server.js
+   ```
+
+2. Ouvrez votre navigateur et accédez à:
+   ```
+   http://localhost:3000
+   ```
+
+3. Uploadez les deux fichiers Excel et comparez-les pour voir les emails manquants.
+
+## Technologies utilisées
+
+- React
+- Express.js
+- Multer
+- XLSX
+- Material-UI
+- Axios
+
+## Contribuer
+
+Les Pull Requests sont les bienvenues. Pour les changements majeurs, veuillez d'abord ouvrir une Issue pour discuter de ce que vous aimeriez changer.
+
+## Licence
+
+[MIT](https://choosealicense.com/licenses/mit/)
+```
